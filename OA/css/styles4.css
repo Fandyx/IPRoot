@@ -1,0 +1,65 @@
+﻿header{
+	font-size:40px;
+	text-transform:uppercase;
+	margin:20px 0;
+}
+body{
+	min-height:1000px;
+}
+header span:not(.tit_let){
+	font-size:20px;
+}
+.tit_let{
+	position:absolute;
+	left:9999px;
+}
+audio{
+	display:block !important;
+	position: relative;	
+	margin-left:75%;
+}
+body{
+	background:white;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+}
+#bymarie{
+	position:absolute;
+	left:500px;
+	display:none;
+}
+#span_container{
+	margin-left:25%;
+	position:relative;
+	margin-top:100px;
+}
+#cont_p{
+	margin-left:25%;
+	margin-top:150px;
+	text-transform:uppercase;
+	text-align:justify;
+}
+#bienvenido{
+	margin-left:28%;
+	text-align:center;
+}
+#left{
+	float:left;
+	width:50%;
+}
+#right{
+	float:right;
+	width:50%;
+}
+.navbar a h3{
+font-size: 13px !important;
+margin: 5px 0 0 0 !important;
+padding: 0 !important;
+line-height: 10px !important;
+text-align: center !important;
+}
+#ep{
+	margin-left:25%;
+}
+video{
+	
+}

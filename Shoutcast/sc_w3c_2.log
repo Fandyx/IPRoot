@@ -1,0 +1,7 @@
+#Software: SHOUTcast
+#Version: 2.2.2.123
+#Fields: c-ip c-dns date time cs-uri-stem c-status cs(User-Agent) sc-bytes x-duration avgbandwidth
+126.210.11.89 126.210.11.89 2014-08-23 21:33:02 /stream?title=Unknown 200 Clock%2520Free%2F2.5.2%20CFNetwork%2F672.1.15%20Darwin%2F14.0.0 427874 45 76066
+50.139.230.200 50.139.230.200 2014-08-23 21:35:16 /stream?title=Unknown 200 Dalvik%2F1.6.0%20%28Linux%3B%20U%3B%20Android%204.2.2%3B%20GT-P5210%20Build%2FJDQ39%29 703541 32 175885
+126.210.11.89 126.210.11.89 2014-08-23 21:43:52 /stream?title=Unknown 200 Clock%2520Free%2F2.5.2%20CFNetwork%2F672.1.15%20Darwin%2F14.0.0 2602465 148 140673
+1.72.0.44 1.72.0.44 2014-08-23 22:21:50 /stream?title=Unknown 200 RadioAlarmLite%2F3.0.6%20CFNetwork%2F672.1.15%20Darwin%2F14.0.0 571328 25 182824
