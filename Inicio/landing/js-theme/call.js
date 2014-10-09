@@ -85,23 +85,23 @@ $(document).ready(function(){
     
     var name = $('input#name').val();
     if (name == "" || name == " " || name == "Name") {
-        $('input#name').focus().before('<div class="error">Please enter your name.</div>');
+        $('input#name').focus().before('<div class="error">Ingresa tu nombre.</div>');
         return false;
     }
     
     var email_test = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
-    var email = $('input#email').val();
+    var email = $('input#email2').val();
     if (email == "" || email == " ") {
-       $('input#email').focus().before('<div class="error">Please enter your email address.</div>');
+       $('input#email2').focus().before('<div class="error">Ingresa tu direccion de correo electronico.</div>');
        return false;
     } else if (!email_test.test(email)) {
-       $('input#email').select().before('<div class="error">Email address might be wrong.</div>');
+       $('input#email2').select().before('<div class="error">Hay un error con la direccion de correo.</div>');
        return false;
     }
     
     var message = $('#message').val();
     if (message == "" || message == " " || message == "Message") {
-        $('#message').focus().fadeIn('slow').before('<div class="error">Please enter your message.</div>');
+        $('#message').focus().fadeIn('slow').before('<div class="error">Ingresa un mensaje</div>');
         return false;
     }
     
@@ -114,7 +114,7 @@ $(document).ready(function(){
         success:    function() {
 
     $('form#ajax_form').slideUp('fast').before('<div id="success"></div>');
-    $('#success').html('<h3>Success</h3><p>Your email has been sent.</p>').slideDown(9000);
+    $('#success').html('<h3>¡Gracias!</h3><p>Tu mensaje ha sido enviado.</p>').slideDown(9000);
 
         }//end success function
 

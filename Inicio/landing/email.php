@@ -1,12 +1,18 @@
 <?php
 $name = $_POST['name'];
-$email = $_POST['email'];
+$email = $_POST['email2'];
 $message = $_POST['message'];
 
-$subject = "Message";
-$body = "From $name, $email,  \n\n$message";
+$subject = "Mensaje de soporte";
+$body = "De $name, $email,  \n\n$message";
 
-$to = "yourdomain@example.com";
+$to = "sfandinob@gmail.com";
 
-mail($to, $subject, $body);
+if(@mail($to, $subject, $body))
+{
+  echo "Mail Sent Successfully";
+}else{
+  echo "Mail Not Sent";
+}
+
 ?>

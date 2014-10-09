@@ -77,7 +77,7 @@
             <div class="widget-body">
                     <div class="widget-main">
                           
-                            <form id="register_form" method="POST" action="Usuarios/register">
+                            <form id="register_form" method="POST" action="../cake/Usuarios/register">
                                     <fieldset>
                                             <label class="block clearfix">
                                                     <span class="block input-icon input-icon-right">
@@ -123,12 +123,14 @@
                                             <div class="space-24"></div>
 
                                             <div class="clearfix">
-                                                    <button type="reset" class="width-30 pull-left btn btn-sm">
+                                                    <button type="reset" onclick="window.location.href = 'http://localhost/Inicio/cake/';" class="width-50 pull-left btn btn-sm yellow-p">
+                                                      
                                                             <i class="ace-icon fa fa-refresh"></i>
-                                                            <span class="bigger-110">Reset</span>
+                                                            <span class="bigger-110">Iniciar Sesión</span>
+                                                      
                                                     </button>
 
-                                                    <button type="submit" value="submit" class="width-65 pull-right btn btn-sm btn-success">
+                                                    <button type="submit" value="submit" class="width-50 pull-right btn btn-sm btn-info ingresa">
                                                             <span class="bigger-110">Registrarme</span>
 
                                                             <i class="ace-icon fa fa-arrow-right icon-on-right"></i>
@@ -415,7 +417,7 @@
               </div>
               <div class="col-sm-12">
                 <div class="form-group">
-                  <input class="form-control form-flat" type="text" name="email" id="email" placeholder="Email" > 
+                  <input class="form-control form-flat" type="text" name="email2" id="email2" placeholder="Email" > 
                 </div>
               </div>
               <div class="col-sm-12">
